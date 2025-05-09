@@ -2,14 +2,14 @@ repositories:
   coord-dsl:
     type: git
     url: git@github.com:secorolab/coord-dsl.git
-    version: feature/fsm
+    version: main
   coord2b:
     type: git
     url: https://github.com/rosym-project/coord2b.git
     version: master
   eddie-ros:
     type: git
-    url: git@github.com:secorolab/eddie-interface.git
+    url: git@github.com:secorolab/eddie-ros.git
     version: main
   eddie_pmu_control:
     type: git
