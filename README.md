@@ -47,7 +47,7 @@ vcs import src < r4s.repos
 3. Install the dependencies using `rosdep`:
 
 ```bash
-rosdep install --from-paths . --ignore-src -r -y
+rosdep install --from-paths src --ignore-src -y -r
 ```
 
 4. Copy `colcon.meta` to the `r4s` directory and build the workspace with `colcon`:
