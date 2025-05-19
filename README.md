@@ -1,6 +1,7 @@
 # Documentation
 
 - [Documentation for the door parts](door_parts.md)
+- [Requirements specification](requirements.md)
 
 ## Robot Setup
 
