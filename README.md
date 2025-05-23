@@ -99,15 +99,6 @@ cmake -DBUILD_SHARED_LIBS=On -DCMAKE_INSTALL_PREFIX=/usr/local/ ..
 sudo make install
 ```
 
-```
-cbp robif2b --cmake-args \
-    -DENABLE_ETHERCAT=ON \
-    -DENABLE_KELO=ON \
-    -DENABLE_KORTEX=ON \
-    -DCMAKE_BUILD_TYPE=Debug \
-    -DENABLE_KORTEX_API_AUTO_DOWNLOAD=ON
-```
-
 To run:
 ```bash
 ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=
