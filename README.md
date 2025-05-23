@@ -99,9 +99,31 @@ cmake -DBUILD_SHARED_LIBS=On -DCMAKE_INSTALL_PREFIX=/usr/local/ ..
 sudo make install
 ```
 
-To run:
+
+## Check connection
+
+1. Connect the ethernet
+
+Network -> IPv4 -> set to manual:
+
+- Address: 192.168.1.100
+- Netmask: 255.255.255.0
+- Gateway: 192.168.1.1
+
+2. To get the interfaces
+```
+ip a
+```
+get the name of the interface which showes the IP address under "inet"
+
+3. Check connection
 ```bash
-ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=
+sudo slaveinfo <eth interface>
+```
+   
+## Run
+```bash
+ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=<eth interface>
 ```
 
 ## Links
