@@ -128,6 +128,9 @@ ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=<eth interface
 
 ## Links
 
+milestones:
+https://github.com/orgs/Robots4Sustainability/projects/1
+
 use the `dev` branch of `robif2b` for gripper control: 
 https://github.com/secorolab/robif2b/tree/dev
 
