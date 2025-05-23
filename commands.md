@@ -11,12 +11,11 @@ cd ~/r4s
 ```
 
 place the two files inside `~/r4s`
-(the files can be found on discord on the "robot-setup" channel,
+(the files can be found in the src folder of this repository,
 - colcon.meta
 - r4s.repos
 )
 
-note: make sure you use the updated version of r4s.repos
 
 then clone the repos
 ```
@@ -63,9 +62,9 @@ cbp robif2b --cmake-args \
 ```
 
 In order to run:
-`
+```
 ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=
-`
+```
 
 
 ## Links
