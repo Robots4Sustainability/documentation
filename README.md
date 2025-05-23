@@ -116,7 +116,7 @@ schedule appointment to use robot:
 https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt
 
 Edit Requirements document:
-https://typst.app/project/w4eGOkZZURnUWsefWEqQz7
+https://typst.app/project/pBvNF8QMZGvmXaXiLlXdbC
 
-Edit Proposal document (first draft):
+Edit Proposal document:
 https://typst.app/project/wYIco69fCEmJgELcsgiucs
