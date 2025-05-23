@@ -12,8 +12,8 @@ cd ~/r4s
 
 place the two files inside `~/r4s`
 (the files can be found on discord on the "robot-setup" channel,
-colcon.meta
-r4s.repos
+- colcon.meta
+- r4s.repos
 )
 
 note: make sure you use the updated version of r4s.repos
@@ -63,10 +63,21 @@ cbp robif2b --cmake-args \
 ```
 
 In order to run:
-`ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:= `
+`
+ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=
+`
 
 
 ## Links
+
+use the `dev` branch of `robif2b` for gripper control: 
+https://github.com/secorolab/robif2b/tree/dev
+
+you will find API documentation in this repo:
+https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L
+
+schedule appointment to use robot:
+https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt
 
 Requirements document:
 https://typst.app/project/w4eGOkZZURnUWsefWEqQz7
