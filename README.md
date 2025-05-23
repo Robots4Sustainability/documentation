@@ -98,3 +98,34 @@ cd build
 cmake -DBUILD_SHARED_LIBS=On -DCMAKE_INSTALL_PREFIX=/usr/local/ ..
 sudo make install
 ```
+
+```
+cbp robif2b --cmake-args \
+    -DENABLE_ETHERCAT=ON \
+    -DENABLE_KELO=ON \
+    -DENABLE_KORTEX=ON \
+    -DCMAKE_BUILD_TYPE=Debug \
+    -DENABLE_KORTEX_API_AUTO_DOWNLOAD=ON
+```
+
+To run:
+```bash
+ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=
+```
+
+## Links
+
+use the `dev` branch of `robif2b` for gripper control: 
+https://github.com/secorolab/robif2b/tree/dev
+
+find API documentation in this repo:
+https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L
+
+schedule appointment to use robot:
+https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt
+
+Edit Requirements document:
+https://typst.app/project/w4eGOkZZURnUWsefWEqQz7
+
+Edit Proposal document (first draft):
+https://typst.app/project/wYIco69fCEmJgELcsgiucs
