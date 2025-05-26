@@ -114,7 +114,7 @@ Network -> IPv4 -> set to manual:
 ```
 ip a
 ```
-get the name of the interface which showes the IP address under "inet"
+Get the name of the interface which shows the IP address under "inet"
 
 3. Check connection
 ```bash
@@ -128,20 +128,17 @@ ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=<eth interface
 
 ## Links
 
-milestones:
+Milestones:
 https://github.com/orgs/Robots4Sustainability/projects/1
 
-use the `dev` branch of `robif2b` for gripper control: 
+Use the `dev` branch of `robif2b` for gripper control: 
 https://github.com/secorolab/robif2b/tree/dev
 
-find API documentation in this repo:
+Find API documentation in this repo:
 https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L
 
-schedule appointment to use robot:
+Schedule appointment to use robot:
 https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt
-
-Edit Requirements document:
-https://typst.app/project/pBvNF8QMZGvmXaXiLlXdbC
 
 Edit Proposal document:
 https://typst.app/project/wYIco69fCEmJgELcsgiucs
