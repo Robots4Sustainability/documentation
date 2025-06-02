@@ -9,7 +9,7 @@ repositories:
     version: master
   eddie-ros:
     type: git
-    url: git@github.com:secorolab/eddie-ros.git
+    url: git@github.com:Robots4Sustainability/eddie-ros.git
     version: main
   eddie_pmu_control:
     type: git
