@@ -102,43 +102,36 @@ sudo make install
 
 ## Check connection
 
-1. Connect the ethernet
+1. Connect the ethernet and set the network settings on your machine.
 
-Network -> IPv4 -> set to manual:
-
-- Address: 192.168.1.100
-- Netmask: 255.255.255.0
-- Gateway: 192.168.1.1
-
-2. To get the interfaces
-```
-ip a
-```
-Get the name of the interface which shows the IP address under "inet"
-
-3. Check connection
-```bash
-sudo slaveinfo <eth interface>
-```
+   `Network` -> `IPv4` -> set to `Manual` with these values:
    
-## Run
-```bash
-ros2 run eddie-ros eddie_ros_interface --ros-args -p ethernet_if:=<eth interface>
-```
+   - Address: 192.168.1.100
+   - Netmask: 255.255.255.0
+   - Gateway: 192.168.1.1
+
+2. To get the network interfaces.
+
+   ```bash
+   ip a
+   ```
+   
+   Get the name of the ethernet interface which shows the IP address under `inet`.
+
+3. Check connection, this should print some information about the EtherCAT connection to the robot.
+   
+   ```bash
+   sudo slaveinfo <eth interface>
+   ```
 
 ## Links
 
-Milestones:
-https://github.com/orgs/Robots4Sustainability/projects/1
+- [Milestones](https://github.com/orgs/Robots4Sustainability/projects/1)
 
-Use the `dev` branch of `robif2b` for gripper control: 
-https://github.com/secorolab/robif2b/tree/dev
+- Use the [`dev` branch of `robif2b`](https://github.com/secorolab/robif2b/tree/dev) for gripper control
 
-Find API documentation in this repo:
-https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L
+- Find API documentation for the Kinova arm in [this repo](https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L)
 
-Schedule appointment to use robot:
-https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt
+- [Schedule appointment to use robot](https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt)
 
-Edit Proposal document:
-https://typst.app/project/wYIco69fCEmJgELcsgiucs
+- Edit [Proposal document](https://typst.app/project/wYIco69fCEmJgELcsgiucs)
