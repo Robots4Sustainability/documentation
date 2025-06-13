@@ -151,6 +151,8 @@ To turn off the robot:
 
 - Find API documentation for the Kinova arm in [this repo](https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L)
 
+- [Manual for the Kinova Gen3 robot arm](/manuals/EN-UG-014-Gen3-Ultra-lightweight-user-guide-r10.0.pdf)
+
 - [Schedule appointment to use robot](https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt)
 
 - Edit [Proposal document](https://typst.app/project/wYIco69fCEmJgELcsgiucs)
