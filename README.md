@@ -99,6 +99,25 @@ cmake -DBUILD_SHARED_LIBS=On -DCMAKE_INSTALL_PREFIX=/usr/local/ ..
 sudo make install
 ```
 
+## Robot startup & shutdown
+
+To power on the robot follow these steps:
+
+1. Start the robot base: Press the green button on side of the base for ca. 3 s.
+2. Connect the emergency button:
+   - Make shure that the red emergency button on the top of the robot and on the remote are released.
+   - The green light above the screen should be flashing.
+   - Press the green button on the remote.
+   - The green light above the screen should be on continously, if not press and release the emergency button on the remote and try again.
+3. You can now turn on both arms by pressing the silver buttons near the connectors for 3 s. After some time the lights should turn green.
+4. Now you can control both arms using the buttons on the arms wrists or with the Xbox controllers.
+5. Connect your PC to the base using the ethernet cable.
+
+To turn off the robot:
+
+1. Make shure to hold onto the arms as they will fall down slowly. Then press the emergency button.
+2. Now rest the arms on the sides of the base.
+3. Press the button on the side of the base to turn it off.
 
 ## Check connection
 
