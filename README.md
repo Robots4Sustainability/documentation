@@ -104,10 +104,11 @@ sudo make install
 To power on the robot follow these steps:
 
 1. Start the robot base: Press the green button on side of the base for ca. 3 s.
-2. Connect the emergency button:
+2. Connect the wireless emergency stop button:
    - Make shure that the red emergency button on the top of the robot and on the remote are released.
-   - The green light above the screen should be flashing.
-   - Press the green button on the remote.
+   - The green light above the screen at the back of Eddie should be flashing, the red LED has to be off.
+   - Press the green button on the remote, the green and red LEDs on the back of the robot start flashing alternately.
+   - Press the green button on the back of the robot above the screen.
    - The green light above the screen should be on continously, if not press and release the emergency button on the remote and try again.
 3. You can now turn on both arms by pressing the silver buttons near the connectors for 3 s. After some time the lights should turn green.
 4. Now you can control both arms using the buttons on the arms wrists or with the Xbox controllers.
