@@ -9,10 +9,23 @@
 
 See the [eddie-ros repository](https://github.com/Robots4Sustainability/eddie-ros) for documentation on how to set up the robot and ROS2 workspace.
 
+### Zenoh Config
+
+When using Zenoh to run the perception nodes on the lab workstation, set the endpoint on your machine to the workstation IP address:
+
+```bash
+export ZENOH_CONFIG_OVERRIDE='connect/endpoints=["tcp/192.168.1.11:7447"]'
+```
+
+Start Zenoh on your machine afterwards:
+
+```bash
+ros2 run rmw_zenoh_cpp rmw_zenohd
+```
+
 ## Links
 
-- [Milestones](https://github.com/orgs/Robots4Sustainability/projects/1)
-- Use the [`dev` branch of `robif2b`](https://github.com/secorolab/robif2b/tree/dev) for gripper control
+- [Project Kanban](https://github.com/orgs/Robots4Sustainability/projects/1)
 - Find API documentation for the Kinova arm in [this repo](https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L)
 - [Schedule appointment to use robot](https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt)
-- Edit [Proposal document](https://typst.app/project/wYIco69fCEmJgELcsgiucs)
+- [Proposal document](https://typst.app/project/wYIco69fCEmJgELcsgiucs)
