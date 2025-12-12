@@ -4,6 +4,7 @@
 - [Requirements specification](requirements.md)
 - [Manual for the Kinova Gen3 robot arm](manuals/EN-UG-014-Gen3-Ultra-lightweight-user-guide-r10.0.pdf)
 - [Manual for the Robotiq 2F-85 gripper](manuals/2F-85_2F-140_Instruction_Manual_PDF_20181130.pdf)
+- [Manual for the Robotiq FT 300-S force torque sensor](manuals/FT300-S_Sensor_Manual_general_PDF_20210831.pdf)
 
 ## Robot Setup
 
@@ -29,3 +30,4 @@ ros2 run rmw_zenoh_cpp rmw_zenohd
 - Find API documentation for the Kinova arm in [this repo](https://github.com/Kinovarobotics/Kinova-kortex2_Gen3_G3L)
 - [Schedule appointment to use robot](https://nc.uni-bremen.de/index.php/apps/calendar/appointment/qF4zidrge9nt)
 - [Proposal document](https://typst.app/project/wYIco69fCEmJgELcsgiucs)
+- [Robotiq support page](https://robotiq.com/support) for more documentation and software downloads
